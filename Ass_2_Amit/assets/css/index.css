@@ -1,0 +1,72 @@
+
+.london {
+    background-image: url("../img/here.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    display: flex;
+    align-items: end;
+    width: 500px;
+    height: 400px;
+    font-size: 24px;
+    color: red;
+    font-size: bold;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+    from{color:red}
+    to{color: yellow;}
+    from{background-image:url("../img/here.jpg")}
+    to{background-image:url("../img/sea.jpg")}
+    
+}
+
+ .table {
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+.first icon  {
+    color: yellow;
+    background-color: black;
+    font-size: 50px;
+    padding: 10px;
+    animation-name: colors;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes colors {
+    from {color:yellow}
+    to{color:white}
+}
+.sec icon {
+    color: yellow;
+    background-color: black;
+    font-size: 50px;
+    padding: 10px;
+    animation-name: colors2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes colors2 {
+    from {color:yellow}
+    to{color:white}
+}
+.third icon {
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    padding: 10px;
+    animation-name: colors3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes colors3 {
+    from {color:white}
+    to{color:yellow}
+}
